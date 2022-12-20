@@ -45,6 +45,8 @@ export class InventarioRaspaComponent implements OnInit {
         }
 
         this.inventarioRaspas = Object.values(raspas);
+
+        console.log(this.inventarioRaspas);
         
         if (this.inventarioRaspas.length==0) {
           this.condicion = "no existen registros con ese numero de cedula";
